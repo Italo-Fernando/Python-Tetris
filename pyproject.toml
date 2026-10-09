@@ -1,0 +1,18 @@
+[project]
+name = "python-tetris-neat"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Piquerido",email = "main.italofernando@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "neat-python (>=2.0.0,<3.0.0)",
+    "pygame (>=2.6.1,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
